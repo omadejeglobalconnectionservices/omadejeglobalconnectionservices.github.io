@@ -20,7 +20,7 @@
     }
     header h1 {
       margin: 0;
-      font-size: 2.2rem;
+      font-size: 2rem;
     }
     header p {
       margin-top: 0.5rem;
@@ -34,6 +34,97 @@
     .card {
       background: #ffffff;
       padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .service-card {
+      background: #f8f9fa;
+      padding: 1rem;
+      border-left: 4px solid #003366;
+      border-radius: 4px;
+    }
+    .service-card h3 {
+      margin-top: 0;
+      color: #003366;
+    }
+    h2 {
+      color: #003366;
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: #fff;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Omadeje Global Connection Services</h1>
+    <p>Providing professional commercial services</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Welcome</h2>
+      <p>Welcome to Omadeje Global Connection Services. We are dedicated to providing top-tier professional solutions tailored to your needs.</p>
+    </div>
+
+    <div class="card">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Travel & Tour Consultant</h3>
+          <p>Professional travel planning, tour arrangements, and consultancy services.</p>
+        </div>
+        <div class="service-card">
+          <h3>Event Management</h3>
+          <p>Full-scale planning, coordination, and execution for your events.</p>
+        </div>
+        <div class="service-card">
+          <h3>Electrical & Solar Solutions</h3>
+          <p>Reliable electrical installations and renewable solar power setups.</p>
+        </div>
+        <div class="service-card">
+          <h3>Interior & Exterior Decor</h3>
+          <p>Complete design and decoration services for homes and business spaces.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Contact Us</h2>
+      <p>Reach out to us today to learn more about how we can support your goals.</p>
+      <p><strong>WhatsApp / Phone:</strong> +234XXXXXXXXXX</p>
+      <a href="https://wa.me/2348069124567" class="whatsapp-btn" target="_blank">Chat with us on WhatsApp</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Omadeje Global Connection Services. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
       margin-bottom: 1.5rem;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
